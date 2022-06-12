@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titulo{
+    background-color: rgb(43, 226, 171);
+}
+.titulo h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.menu{
+    /*border: 1px red solid ;*/
+    width: 100%;
+}
+.menu ul{
+    width: 100%;
+    /*border: 1px black solid;*/
+    text-align: center;
+    display: flex;
+
+}
+.menu ul a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    width: 50%;
+    margin: 3px;
+}
+.menu ul a:hover{
+    background-color: aqua;
+    color: white;
+}
